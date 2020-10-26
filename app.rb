@@ -7,5 +7,6 @@ end
 
 
 get '/joe' do
+  @name = ["Amigo", "Oscar", "Viking"].sample
   erb(:index)
 end
