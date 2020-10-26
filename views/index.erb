@@ -1,2 +1,8 @@
+<form action= "/named-cat" >
+<input type="text" name="name">
+<input type="submit" value="Submit">
+</form>
+<% if !@name.empty? %>
 <h1>Meh name is <%= @name %> </h1>
+<% end %>
 <img style="border: 4px #23f4fa dashed" src="http://bit.ly/1eze8aE">
